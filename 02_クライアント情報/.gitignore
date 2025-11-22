@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# 動画ファイル
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.wmv
+
+# 音声ファイル
+*.mp3
+*.m4a
+*.wav
+*.aac
+*.flac
+
+# 画像ファイル（大容量のもの）
+*.heic
+*.tiff
+*.psd
+
+# 圧縮ファイル
+*.zip
+*.dmg
+*.tar.gz
+*.rar
+
+# 一時ファイル
+*.tmp
+*.temp
+~*
+
+# Claude設定（個別リポジトリのものは除外）
+.claude/

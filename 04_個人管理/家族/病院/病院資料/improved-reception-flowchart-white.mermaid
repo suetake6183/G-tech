@@ -1,0 +1,61 @@
+flowchart TD
+    Start([患者来院]) --> A{来院目的?}
+    
+    %% 一般診療フロー（青系）
+    A -->|一般診療| B{初診/再診?}
+    B -->|初診| C[問診票記入依頼]
+    B -->|再診| D[診察券確認]
+    C --> E[保険証確認]
+    D --> F{月初め?}
+    F -->|はい| E
+    F -->|いいえ| G[受付完了]
+    E --> G
+    
+    %% 健診/検診フロー（緑系）
+    A -->|健診/検診| H[健診受付]
+    H --> L[受診券・保険証確認]
+    
+    %% 予防接種フロー（水色系）
+    A -->|予防接種| I[予防接種受付]
+    I --> M[予診票記入・証明書類確認]
+    
+    %% 労災フロー（紫系）
+    A -->|労災| J[労災書類確認]
+    J --> N{労災書類持参?}
+    N -->|はい| O[書類情報入力]
+    N -->|いいえ| P[自費説明・領収書保管案内]
+    
+    %% 交通事故フロー（オレンジ系）
+    A -->|交通事故| K[交通事故受付]
+    K --> Q{保険会社一括?}
+    Q -->|はい| R[保険会社情報確認]
+    Q -->|いいえ| S[自費説明・領収書保管案内]
+    
+    %% 診察案内へ合流
+    G --> Final([診察案内])
+    L --> Final
+    M --> Final
+    O --> Final
+    P --> Final
+    R --> Final
+    S --> Final
+    
+    %% スタイル設定 - 白背景に変更
+    classDef startEnd fill:#ffffff,stroke:#333,stroke-width:2px,color:#333,font-weight:bold
+    classDef mainProcess fill:#ffffff,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    classDef decision fill:#ffffff,stroke:#ff9800,stroke-width:2px,color:#e65100
+    classDef healthCheck fill:#ffffff,stroke:#388e3c,stroke-width:2px,color:#1b5e20
+    classDef vaccination fill:#ffffff,stroke:#00acc1,stroke-width:2px,color:#006064
+    classDef workInjury fill:#ffffff,stroke:#8e24aa,stroke-width:2px,color:#4a148c
+    classDef accident fill:#ffffff,stroke:#f57c00,stroke-width:2px,color:#e65100
+    classDef important fill:#ffffff,stroke:#c62828,stroke-width:3px,color:#b71c1c,font-weight:bold
+    
+    %% クラス適用
+    class Start,Final startEnd
+    class B,C,D,E,G mainProcess
+    class A,F,N,Q decision
+    class H,L healthCheck
+    class I,M vaccination
+    class J,O,P workInjury
+    class K,R,S accident
+    class A,N,Q,E important

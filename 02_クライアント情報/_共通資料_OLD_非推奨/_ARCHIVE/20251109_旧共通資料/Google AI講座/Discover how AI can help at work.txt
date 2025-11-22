@@ -1,0 +1,49 @@
+- Hi, I am Timothy, a Director of Developer Relations at Google. For the last 14 years, I've
+been helping developers and Google work better together. I've recently been working
+a lot more with gen AI to do things like technical
+writing and generating code. I've also been helping more
+developers integrate gen AI into their apps. Prompting is a new skill
+that a lot of us are learning and trying to get better at. Myself included. Now my
+first experience using gen AI that was transformative was
+for a pretty simple task. I needed to quickly collect
+everyone's availability for an important team meeting. I asked over chat and everyone
+responded in a different format as people are likely to do, and it was a lot to track. But with the help of gen AI, I was able to organize everyone's
+availability into a table and then transposed it so
+the table was sorted by date, not by chat message. A task that would've taken forever, manually only took me a
+few minutes with gen AI, and that was my breakthrough
+moment using gen AI in my everyday tasks to turn things that used to be a headache into
+something simple and easy. And that's what this course
+is about, using gen AI to help you get your job done. So what is prompting anyway? Put simply prompting is the process of providing specific
+instructions to a gen AI tool to receive new information or to achieve a desired outcome on a task. Those instructions are called prompts. When we write a prompt for a gen AI tool, we're giving it a series of inputs and telling it what we
+would like it to generate. Some gen AI tools can generate text or images while others generate
+video, audio, or even code. Prompting is both
+an art and a science. To get the best results, we need to be precise in defining what we need. Now, this is similar to the way
+you would help your teammate get started on a new project. Providing context and setting parameters
+will get you the best output from gen AI. The first thing you'll learn
+is the prompting framework. It's a formula for writing great prompts. You'll use this framework
+throughout the course, and after that, it's all about putting prompts to use on specific tasks
+that can save you time in your job. You'll use
+gen AI to brainstorm ideas, develop plans and draft
+emails for different audiences. We'll teach you how to
+summarize meeting notes, assign action items and more. We'll also teach you how to analyze data and spreadsheets with gen AI. You'll write prompts
+that can help you find insights buried in data. You'll then use gen AI to turn
+those insights into visuals, and eventually, turn it
+all into a slide deck with talking points for a presentation. Next, you'll learn advanced
+prompting techniques to help you untangle complex tasks. For example, you'll learn
+how to create prompts that can help make long-term
+complicated projects easier to plan and execute. You'll also learn how to design a prompt to create your own personalized AI agent to do things like practice
+before an interview or prepare for difficult
+work conversations. And finally, you'll learn
+how to use gen AI responsibly, including guidelines
+for using it in your job and on your team. This is crucial. Gen AI
+tools help you with the work that you do, but they don't do it for you. Anyone using gen AI should
+always be evaluating and fact-checking outputs. There are a lot of gen AI tools out there and in this course. We're
+gonna demonstrate how to prompt using Gemini and other Google AI tools like
+Gemini for Google Workspace and Google AI Studio. But all of the techniques and best practices you'll
+learn in this course can be applied to other gen AI tools like ChatGPT, Copilot, or Claude. Last thing, we designed this
+course to give you skills that you can use at work right away. So all of these lessons and techniques you're gonna
+learn are rooted in real world scenarios. You should experiment and
+play around to figure out what works best for you. And as you go through
+this course, feel free to pause the video and test what you just learned with something you're
+working on right now. Now let's get started
+with our first prompts.

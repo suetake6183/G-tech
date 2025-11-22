@@ -1,0 +1,12 @@
+- Chances are you've already
+experimented with generative AI and you've probably gotten some results that have been helpful and maybe some that fell
+short. Throughout this course AI experts at Google will
+teach you the difference between a good prompt and a great prompt, so you can work faster and smarter with gen AI at your side, and we'll share practical examples of where you can use gen AI at work. Hi, I'm Amina. I work on
+generative AI at Google. In this course, my colleagues and I are going to teach you how you can get the most out of gen AI. You'll learn when to use gen AI and how by designing better
+prompts to get the best results. You'll apply what you've
+learned with hands-on activities and quizzes to level up
+your prompting skills. After you've completed this
+course, you'll have lots of practice applying gen AI
+in ways that matter to you and your job. As recognition of your work you'll earn a certificate
+from Google to share with your network and potential employers. We have a lot of exciting
+stuff in store, so let's get to it.

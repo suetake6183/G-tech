@@ -1,0 +1,49 @@
+# macOS system files
+.DocumentRevisions-V100/
+.Spotlight-V100/
+.TemporaryItems/
+.Trashes/
+.DS_Store
+.fseventsd/
+
+# Obsidian
+.obsidian/
+
+# Claude
+.claude/
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.mpeg
+*.wav
+*.mp3
+*.m4a
+*.aac
+
+# Large archives
+*.zip
+*.tar.gz
+*.rar
+
+# Python compiled files
+*.pyc
+__pycache__/
+*.dist-info/
+
+# Adobe files (temporary and project files)
+*.xmp
+*.pek
+*.cfa
+*.prproj
+
+# TypeScript
+*.typed
+
+# Large PDFs (keep only essential ones)
+# *.pdf
+
+# Archive folders (too large)
+99_アーカイブ/
+

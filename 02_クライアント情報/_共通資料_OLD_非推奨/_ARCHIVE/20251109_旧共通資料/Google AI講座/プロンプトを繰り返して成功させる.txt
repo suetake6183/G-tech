@@ -1,0 +1,19 @@
+- It is my pleasure to be here
+with Anoop, Research Director of AI and Future Technologies
+on the Technology and Society team at Google. So Anoop, I'm curious,
+do you have any tips, how should people get started, what are some of the gotchas
+they should watch out for, that sort of thing? - Yeah, I think the first
+thing is to remember that they're not perfect and
+those mistakes will show up and sometimes they'll show
+up in the most subtle ways. If I asked my LLM to
+help me write a draft, sometimes it'll write a draft and it'll write a paragraph that it's extremely confident about. And then I just have to know and I have to double check everything because knowing the topic that I'm working on means I can catch it, - Right - and make sure that I'm not taking what the large language model
+has suggested as ground truth because it's not, it requires checking. It's also the case, it's very iterative process I think, as well. So whatever my first prompt
+might be, it's the iterations that actually extract the
+help that I might need or the answers to the
+questions that I might have. So I'll usually start with a prompt, but I'm also really quite aware
+that I'm gonna be iterating that prompt forward until I get the thing that I actually want. - It's not one and done,
+it's a conversation. - It's not one and done
+at all. And it's important to be a bit careful that maybe
+there's some factual error that's actually being shown. But then also the iteration
+is what can get it to be what actually solves
+the task that I've got.

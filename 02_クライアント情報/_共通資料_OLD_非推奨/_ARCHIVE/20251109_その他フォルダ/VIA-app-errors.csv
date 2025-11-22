@@ -1,0 +1,26 @@
+timestamp, productName, vendorId, productId, message
+8:52:04.491, Keychron Q1, 0x3434, 0x010B, "Command Name: BACKLIGHT_CONFIG_GET_VALUE
+Command: 8 128
+Response: 255 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+8:52:04.492, Keychron Q1, 0x3434, 0x010B, "Error: Receiving incorrect response for command
+    at KeyboardAPI._hidCommand (https://usevia.app/assets/index-143666a3.js:3:9407)
+    at async KeyboardAPI.flushQueue (https://usevia.app/assets/index-143666a3.js:3:8661)"
+8:52:04.493, Keychron Q1, 0x3434, 0x010B, "Loading lighting/menu data failed"
+8:52:04.495, Keychron Q1, 0x3434, 0x010B, "Command Name: BACKLIGHT_CONFIG_GET_VALUE
+Command: 8 129
+Response: 255 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+8:52:04.495, Keychron Q1, 0x3434, 0x010B, "Error: Receiving incorrect response for command
+    at KeyboardAPI._hidCommand (https://usevia.app/assets/index-143666a3.js:3:9407)
+    at async KeyboardAPI.flushQueue (https://usevia.app/assets/index-143666a3.js:3:8661)"
+8:52:04.499, Keychron Q1, 0x3434, 0x010B, "Command Name: BACKLIGHT_CONFIG_GET_VALUE
+Command: 8 130
+Response: 255 130 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+8:52:04.499, Keychron Q1, 0x3434, 0x010B, "Error: Receiving incorrect response for command
+    at KeyboardAPI._hidCommand (https://usevia.app/assets/index-143666a3.js:3:9407)
+    at async KeyboardAPI.flushQueue (https://usevia.app/assets/index-143666a3.js:3:8661)"
+8:52:04.503, Keychron Q1, 0x3434, 0x010B, "Command Name: BACKLIGHT_CONFIG_GET_VALUE
+Command: 8 131
+Response: 255 131 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+8:52:04.504, Keychron Q1, 0x3434, 0x010B, "Error: Receiving incorrect response for command
+    at KeyboardAPI._hidCommand (https://usevia.app/assets/index-143666a3.js:3:9407)
+    at async KeyboardAPI.flushQueue (https://usevia.app/assets/index-143666a3.js:3:8661)"
