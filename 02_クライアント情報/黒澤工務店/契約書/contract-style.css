@@ -1,0 +1,93 @@
+/* 契約書用スタイル */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
+
+body {
+  font-family: "Noto Serif JP", "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", serif;
+  font-size: 10.5pt;
+  line-height: 1.8;
+  color: #000;
+  max-width: 210mm;
+  margin: 0 auto;
+  padding: 20mm 25mm;
+}
+
+h1 {
+  text-align: center;
+  font-size: 16pt;
+  font-weight: bold;
+  margin-bottom: 2em;
+  border: none;
+}
+
+h2 {
+  font-size: 10.5pt;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  border: none;
+}
+
+p {
+  margin: 0.5em 0;
+  text-align: justify;
+  text-indent: 1em;
+}
+
+p.no-indent {
+  text-indent: 0;
+}
+
+.preamble {
+  text-indent: 0;
+  margin-bottom: 1.5em;
+}
+
+.item {
+  margin-left: 1em;
+  text-indent: 0;
+}
+
+.sub-item {
+  margin-left: 2em;
+  text-indent: 0;
+}
+
+.signature-section {
+  margin-top: 3em;
+}
+
+.signature-date {
+  margin-bottom: 2em;
+}
+
+.party {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.party-label {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.seal {
+  display: inline-block;
+  margin-left: 3em;
+}
+
+hr {
+  display: none;
+}
+
+/* 水平線を非表示 */
+hr {
+  border: none;
+  margin: 0;
+}
+
+/* 署名欄の上の線 */
+.signature-line {
+  border-top: 1px solid #000;
+  margin-top: 3em;
+  padding-top: 1em;
+}
