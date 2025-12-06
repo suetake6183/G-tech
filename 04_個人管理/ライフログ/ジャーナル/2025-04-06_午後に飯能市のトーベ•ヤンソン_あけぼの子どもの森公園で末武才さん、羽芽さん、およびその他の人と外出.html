@@ -1,0 +1,477 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html dir="auto">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title></title>
+<meta name="Generator" content="Cocoa HTML Writer">
+<meta name="CocoaVersion" content="2685.2">
+<style type="text/css">
+p.p1 {margin: 0.0px 0.0px 0.0px 0.0px}
+p.p2 {margin: 10.0px 0.0px 0.0px 0.0px; font: 14.0px '.AppleSystemUIFont'; color: #000000}
+p.p3 {margin: 10.0px 0.0px 0.0px 0.0px; font: 14.0px '.AppleSystemUIFont'; color: #000000; min-height: 15.1px}
+p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; min-height: 14.0px}
+span.s1 {font-family: 'Helvetica'; font-weight: normal; font-style: normal; font-size: 12.00px}
+span.s2 {font-family: 'Helvetica'; font-weight: normal; font-style: normal; font-size: 9.24px}
+span.s3 {font-family: 'UICTFontTextStyleShortEmphasizedBody'; font-weight: bold; font-style: normal; font-size: 14.00px}
+span.s4 {font-family: 'UICTFontTextStyleShortBody'; font-weight: normal; font-style: normal; font-size: 14.00px}
+span.Apple-tab-span {white-space:pre}
+    @media print {
+        * {
+            -webkit-print-color-adjust: exact !important;
+        }
+    }
+
+    html * {
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    div.pagebreak { page-break-before: always; }
+
+    div.pageHeader {
+        font-weight: bold;
+        font-size: 12pt;
+        margin-bottom: 10pt;
+    }
+
+    div.title {
+        font-weight: bold;
+        font-size: 12pt;
+        margin: 0pt 6pt;
+    }
+
+    div.reflectionPrompt {
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 12px;
+        border-radius: 4pt;
+        color: white;
+        font-weight: 600;
+        font-size: 10pt;
+    }
+
+    div.photoBanner {
+        font-weight: 600;
+        font-size: 10pt;
+        text-align: left;
+        margin: auto;
+        margin-bottom: 20px;
+        background-color: #5856d626;
+        padding: 10px;
+        border-radius: 4pt;
+    }
+
+    div.photoBanner img {
+        height: 25px;
+        vertical-align: middle;
+        padding-right: 5px;
+    }
+
+    div.container {
+        min-height: 100vh;
+        width: 80%;
+        margin: auto;
+    }
+
+    div.assetGrid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 4pt;
+        margin-bottom: 25pt;
+    }
+
+    div.gridItem {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 1 / 1;
+        position: relative;
+        border-radius: 4pt;
+    }
+    
+    img.asset_image {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 4pt;
+    }
+
+    .gridItem.fallback_asset {
+        background-color:#7676801F;
+    }
+    
+    .gridItem.fallback_asset .asset_image {
+        object-fit: contain;
+        margin-top: 30%;
+        height: 40%;
+    }
+
+    video.asset_video {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 4pt;
+    }
+
+    .gridItemOverlayText {
+        color: #3C3C4299;
+    }
+
+    div.gridItemOverlayHeader {
+        position: absolute;
+        top: 4pt;
+        right: 4pt;
+        left: 4pt;
+        text-align: center;
+        border-radius: 3pt;
+        margin: auto;
+        font-weight: 600;
+        font-size: 8pt;
+    }
+
+    div.gridItemOverlayFooter {
+        position: absolute;
+        left: 4pt;
+        bottom: 4pt;
+        right: 4pt;
+        text-align: center;
+        border-radius: 3pt;
+        margin: auto;
+        font-weight: normal;
+        font-size: 8pt;
+    }
+
+    div.bodyText {
+        font-weight: normal;
+        font-size: 10pt;
+        margin: 0pt 6pt;
+    }
+
+    blockquote {
+        border-left: 3px solid #ccc;
+        padding: 0.2em 5px;
+    }
+
+    div.workoutWindowOverlay {
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: -webkit-radial-gradient(transparent 60%, rgba(0, 0, 0, 0.8) 60%);
+    }
+
+    svg {
+        top: 0;
+        left: 0;
+        position: absolute;
+        border-radius: 3pt;
+    }
+
+    img.asset_workoutIcon {
+        background: black;
+    }
+
+    div.anchoredAttachment {
+        border-radius: 4pt;
+    }
+
+    div.anchoredAttachment.leading {
+        margin-right: 10pt;
+        float: left;
+    }
+
+    div.anchoredAttachment.trailing {
+        float: right;
+        margin-left: 10pt;
+        margin-right: 0;
+    }
+
+    div.anchoredAttachment .asset_drawing img {
+        border: 1pt solid #0000007F;
+        object-fit: contain;
+    }
+
+    div.fullScreenDrawing .asset_drawing img {
+        margin: auto
+        width: 80%;
+        object-fit: contain;
+    }
+
+    div.activityType {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        color: white;
+        text-align: center;
+        padding: 6pt;
+        margin: auto;
+        font-weight: 600;
+        font-size: 8pt;
+    }
+
+    div.activityMetrics {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        color: white;
+        text-align: center;
+        padding: 6pt;
+        margin: auto;
+        font-weight: 600;
+        font-size: 8pt;
+    }
+
+    span.activityMetricsDistance {
+        color: #6CB4EE;
+    }
+
+    span.activityMetricsCalories {
+        color: #E32636;
+    }
+
+    span.activityMetricsDuration {
+        color: #FFD700;
+    }
+
+    div.durationText {
+        position: absolute;
+        bottom: 4pt;
+        right: 6pt;
+        color: white;
+        font-weight: 600;
+        font-size: 8pt;
+        text-shadow: black 0px 0px 10px;
+    }
+
+    .audioAssetHeader {
+        margin: 4pt;
+        position: absolute;
+        height 22px;
+    }
+    
+    .audioDuration {
+        display: inline-block;
+        height: auto;
+        margin-left: 5pt;
+        font-weight: 600;
+        font-size: 8pt;
+        top: 4pt;
+    }
+    
+    .audioQuoteBubble {
+        width: 20px;
+        height: auto;
+        display: inline-block;
+        margin-left: 5pt;
+        top: 8pt;
+        position: absolute;
+    }
+    
+    .audioPlayButton {
+        top: 4pt;
+        height: 22pt;
+        position: relative;
+        display: inline-block;
+    }
+
+    .assetType_audio {
+        background: #899CF751;
+    }
+
+    .assetType_audio .asset_image {
+        object-fit: contain;
+        margin-top: 25%;
+        height: 70%;
+    }
+
+    .mediaTypeIcon {
+        height: 14px;
+        position: absolute;
+        background: #8E8E93;
+        border-radius: 2pt;
+        bottom: 4pt;
+        left: 4pt;
+        padding: 2pt;
+    }
+
+    .mediaPlayIcon {
+        height: 22pt;
+        position: absolute;
+        top: 4pt;
+    }
+
+    .assetType_multiPinMap .gridItemOverlayFooter {
+        background:#E5E5EA; padding:4pt;
+    }
+            
+    .assetType_stateOfMind .asset_image {
+        object-fit: contain;
+        margin-top: 25%;
+        height: 50%;
+    }
+
+    .assetType_workoutIcon.multiple_workouts .asset_image {
+        object-fit: contain;
+        margin-top: 15%;
+        height: 70%;
+    }
+
+    .assetType_workoutIcon {
+        background-color: black;
+    }
+
+    .assetType_thirdPartyMedia .asset_image {
+        height: 12pt;
+        width: 12pt;
+        bottom: 4pt;
+        left: 4pt;
+        position: absolute;
+        border-radius: 2pt;
+    }
+
+    .thirdPartyAssetOverlay {
+        margin: 8pt 8px 22pt 12pt;
+        font-size: 8pt;
+        font-weight: normal;
+        color: white;
+    }
+
+    .thirdPartyAssetOverlay .mediaTitle {
+        font-weight: 600;
+    }
+
+    .thirdPartyAssetOverlay .mediaCategory {
+        margin-top: 4pt;
+        color: #FFFFFF99;
+    }
+
+
+    .assetType_motionActivity .asset_image {
+        object-fit: contain;
+        margin-top: 25%;
+        height: 50%;
+    }
+
+    .assetType_contact {
+        background-color: #E5E5EA;
+    }
+
+    .assetType_contact .asset_image {
+        object-fit: contain;
+        margin-top: 10%;
+        height: 60%;
+    }
+
+    .assetType_contact .gridItemOverlayText {
+        color:#00000099;
+        font-weight: 600;
+    }
+
+    .assetType_motionActivity .activityType {
+        color:#00000099;
+    }
+
+    .assetType_motionActivity .activityMetrics {
+        color:#00000066;
+    }
+
+    .assetType_motionActivity {
+        background-color:#FCE6E7;
+    }
+
+    audio {
+        position: absolute;
+        right: 4pt;
+        left: 4pt;
+        bottom: 4pt;
+        margin: auto;
+    }
+</style>
+</head>
+<body>
+<p class="p1"><span class="s1"><div class='pageContainer'>    <div class="pageHeader">2025年4月6日 日曜日</div>    <div class="assetGrid">    <div id="9577E1EB-22D3-44D7-9C97-132C1B8E2E46" class="gridItem assetType_photo " >
+        
+        <img src="../Resources/9577E1EB-22D3-44D7-9C97-132C1B8E2E46.heic" class="asset_image"/>
+        
+    </div>    <div id="219C0453-93C4-4676-8B09-13B0E1090A98" class="gridItem assetType_multiPinMap " >
+        
+        <img src="../Resources/219C0453-93C4-4676-8B09-13B0E1090A98.heic" class="asset_image"/>
+            <div class="gridItemOverlayFooter" style="background:#E5E5EA; padding:4pt;">トーベ•ヤンソン あけぼの子どもの森公園</div>
+    </div>    <div id="03FD55B0-E335-411B-8931-12FC1785E668" class="gridItem assetType_video " >
+        
+            <video class="asset_video" controls>
+      <source src="../Resources/B6801C5E-A43E-4A4D-9022-B651439869CD.MOV" type="video/mp4">
+      Your browser does not support the video tag.<no loc>
+    </video>
+        <div class="durationText">0:17</div>
+        
+    </div>    <div id="744BCE04-98A1-46C5-BF87-FA3A5491B820" class="gridItem assetType_video " >
+        
+            <video class="asset_video" controls>
+      <source src="../Resources/C2DC4EE5-D750-4096-89B1-C0998089E002.MOV" type="video/mp4">
+      Your browser does not support the video tag.<no loc>
+    </video>
+        <div class="durationText">0:25</div>
+        
+    </div>    <div id="8181EECC-4978-4D0C-AB16-9E94C9C72D3F" class="gridItem assetType_video " >
+        
+            <video class="asset_video" controls>
+      <source src="../Resources/8C3FB5C1-FAE2-488B-B3E7-340B24333D2C.MOV" type="video/mp4">
+      Your browser does not support the video tag.<no loc>
+    </video>
+        <div class="durationText">0:20</div>
+        
+    </div>    <div id="22623119-61D8-4335-AE3C-D7AE56333B47" class="gridItem assetType_photo " >
+        
+        <img src="../Resources/22623119-61D8-4335-AE3C-D7AE56333B47.jpeg" class="asset_image"/>
+        
+    </div>    <div id="2F7F3656-D60C-43E9-9EBC-BE5DC31BB33F" class="gridItem assetType_photo " >
+        
+        <img src="../Resources/2F7F3656-D60C-43E9-9EBC-BE5DC31BB33F.jpeg" class="asset_image"/>
+        
+    </div>    <div id="EEF0A7E9-722D-4F18-A84F-B256453BE115" class="gridItem assetType_photo " >
+        
+        <img src="../Resources/EEF0A7E9-722D-4F18-A84F-B256453BE115.jpeg" class="asset_image"/>
+        
+    </div>    <div id="63987D7A-00F0-409C-80AF-BAE7AD1969C1" class="gridItem assetType_photo " >
+        
+        <img src="../Resources/63987D7A-00F0-409C-80AF-BAE7AD1969C1.heic" class="asset_image"/>
+        
+    </div>    <div id="07AAA1AE-A106-4729-9C1B-85CBBAC2C565" class="gridItem assetType_photo " >
+        
+        <img src="../Resources/07AAA1AE-A106-4729-9C1B-85CBBAC2C565.jpeg" class="asset_image"/>
+        
+    </div>    <div id="B34B62C2-EF02-4562-8243-CD88083F1106" class="gridItem assetType_photo " >
+        
+        <img src="../Resources/B34B62C2-EF02-4562-8243-CD88083F1106.jpeg" class="asset_image"/>
+        
+    </div>    <div id="C6F3A5AC-B676-4425-AFBA-0904786D6345" class="gridItem assetType_photo " >
+        
+        <img src="../Resources/C6F3A5AC-B676-4425-AFBA-0904786D6345.heic" class="asset_image"/>
+        
+    </div>    <div id="D5AA53CC-8A37-4B77-9400-112E51005EAF" class="gridItem assetType_video " >
+        
+            <video class="asset_video" controls>
+      <source src="../Resources/31ABEE26-A8E3-42D5-86BD-F2529F8415BD.MOV" type="video/mp4">
+      Your browser does not support the video tag.<no loc>
+    </video>
+        <div class="durationText">0:37</div>
+        
+    </div></div><div class='title'></span><span class="s2">午後に飯能市のトーベ•ヤンソン あけぼの子どもの森公園で末武才さん、羽芽さん、およびその他の人と外出</span><span class="s1"></div><div class='bodyText'></span></p>
+<p class="p2"><span class="s3">今日の出来事</span></p>
+<p class="p2"><span class="s4"><span class="Apple-tab-span">	</span>•<span class="Apple-tab-span">	</span>朝、家族と一緒に曙自然公園へドライブ出発。</span></p>
+<p class="p2"><span class="s4"><span class="Apple-tab-span">	</span>•<span class="Apple-tab-span">	</span>公園に到着後、まず「きのこの家」で遊ぶ。子どもが大はしゃぎ、私もワクワク。</span></p>
+<p class="p2"><span class="s4"><span class="Apple-tab-span">	</span>•<span class="Apple-tab-span">	</span>その後、公園内をゆったり散策。青空の下、木々や小川のせせらぎを感じながら自然と一体になれた。</span></p>
+<p class="p2"><span class="s4"><span class="Apple-tab-span">	</span>•<span class="Apple-tab-span">	</span>お弁当を広げてピクニック。子どもの笑顔を見ながら、のんびりとした時間を満喫。</span></p>
+<p class="p2"><span class="s4"><span class="Apple-tab-span">	</span>•<span class="Apple-tab-span">	</span>夕方、帰路につき、自宅でゆっくりくつろぐ。</span></p>
+<p class="p3"><span class="s4"></span><br></p>
+<p class="p2"><span class="s3">感情と気づき</span></p>
+<p class="p2"><span class="s4">今日は天気にも恵まれ、家族と過ごす自然の中での時間が本当に心地よかった。</span></p>
+<p class="p2"><span class="s4">子どもの無邪気な笑顔を見て、自分自身も日常の忙しさを忘れてリフレッシュできた。</span></p>
+<p class="p2"><span class="s4">「きのこの家」でのワクワク感は、大人になっても新しい体験が心を躍らせることを教えてくれた。</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></div></div></span></p>
+</body>
+</html>

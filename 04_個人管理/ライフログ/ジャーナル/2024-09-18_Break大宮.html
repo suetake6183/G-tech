@@ -1,0 +1,472 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html dir="auto">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title></title>
+<meta name="Generator" content="Cocoa HTML Writer">
+<meta name="CocoaVersion" content="2685.2">
+<style type="text/css">
+p.p1 {margin: 0.0px 0.0px 0.0px 0.0px}
+p.p2 {margin: 10.0px 0.0px 0.0px 0.0px; font: 14.0px '.AppleSystemUIFont'; color: #000000}
+span.s1 {font-family: 'Helvetica'; font-weight: normal; font-style: normal; font-size: 12.00px}
+span.s2 {font-family: 'Helvetica'; font-weight: normal; font-style: normal; font-size: 9.24px}
+span.s3 {font-family: 'UICTFontTextStyleShortBody'; font-weight: normal; font-style: normal; font-size: 14.00px}
+    @media print {
+        * {
+            -webkit-print-color-adjust: exact !important;
+        }
+    }
+
+    html * {
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    div.pagebreak { page-break-before: always; }
+
+    div.pageHeader {
+        font-weight: bold;
+        font-size: 12pt;
+        margin-bottom: 10pt;
+    }
+
+    div.title {
+        font-weight: bold;
+        font-size: 12pt;
+        margin: 0pt 6pt;
+    }
+
+    div.reflectionPrompt {
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 12px;
+        border-radius: 4pt;
+        color: white;
+        font-weight: 600;
+        font-size: 10pt;
+    }
+
+    div.photoBanner {
+        font-weight: 600;
+        font-size: 10pt;
+        text-align: left;
+        margin: auto;
+        margin-bottom: 20px;
+        background-color: #5856d626;
+        padding: 10px;
+        border-radius: 4pt;
+    }
+
+    div.photoBanner img {
+        height: 25px;
+        vertical-align: middle;
+        padding-right: 5px;
+    }
+
+    div.container {
+        min-height: 100vh;
+        width: 80%;
+        margin: auto;
+    }
+
+    div.assetGrid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 4pt;
+        margin-bottom: 25pt;
+    }
+
+    div.gridItem {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 1 / 1;
+        position: relative;
+        border-radius: 4pt;
+    }
+    
+    img.asset_image {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 4pt;
+    }
+
+    .gridItem.fallback_asset {
+        background-color:#7676801F;
+    }
+    
+    .gridItem.fallback_asset .asset_image {
+        object-fit: contain;
+        margin-top: 30%;
+        height: 40%;
+    }
+
+    video.asset_video {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 4pt;
+    }
+
+    .gridItemOverlayText {
+        color: #3C3C4299;
+    }
+
+    div.gridItemOverlayHeader {
+        position: absolute;
+        top: 4pt;
+        right: 4pt;
+        left: 4pt;
+        text-align: center;
+        border-radius: 3pt;
+        margin: auto;
+        font-weight: 600;
+        font-size: 8pt;
+    }
+
+    div.gridItemOverlayFooter {
+        position: absolute;
+        left: 4pt;
+        bottom: 4pt;
+        right: 4pt;
+        text-align: center;
+        border-radius: 3pt;
+        margin: auto;
+        font-weight: normal;
+        font-size: 8pt;
+    }
+
+    div.bodyText {
+        font-weight: normal;
+        font-size: 10pt;
+        margin: 0pt 6pt;
+    }
+
+    blockquote {
+        border-left: 3px solid #ccc;
+        padding: 0.2em 5px;
+    }
+
+    div.workoutWindowOverlay {
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: -webkit-radial-gradient(transparent 60%, rgba(0, 0, 0, 0.8) 60%);
+    }
+
+    svg {
+        top: 0;
+        left: 0;
+        position: absolute;
+        border-radius: 3pt;
+    }
+
+    img.asset_workoutIcon {
+        background: black;
+    }
+
+    div.anchoredAttachment {
+        border-radius: 4pt;
+    }
+
+    div.anchoredAttachment.leading {
+        margin-right: 10pt;
+        float: left;
+    }
+
+    div.anchoredAttachment.trailing {
+        float: right;
+        margin-left: 10pt;
+        margin-right: 0;
+    }
+
+    div.anchoredAttachment .asset_drawing img {
+        border: 1pt solid #0000007F;
+        object-fit: contain;
+    }
+
+    div.fullScreenDrawing .asset_drawing img {
+        margin: auto
+        width: 80%;
+        object-fit: contain;
+    }
+
+    div.activityType {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        color: white;
+        text-align: center;
+        padding: 6pt;
+        margin: auto;
+        font-weight: 600;
+        font-size: 8pt;
+    }
+
+    div.activityMetrics {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        color: white;
+        text-align: center;
+        padding: 6pt;
+        margin: auto;
+        font-weight: 600;
+        font-size: 8pt;
+    }
+
+    span.activityMetricsDistance {
+        color: #6CB4EE;
+    }
+
+    span.activityMetricsCalories {
+        color: #E32636;
+    }
+
+    span.activityMetricsDuration {
+        color: #FFD700;
+    }
+
+    div.durationText {
+        position: absolute;
+        bottom: 4pt;
+        right: 6pt;
+        color: white;
+        font-weight: 600;
+        font-size: 8pt;
+        text-shadow: black 0px 0px 10px;
+    }
+
+    .audioAssetHeader {
+        margin: 4pt;
+        position: absolute;
+        height 22px;
+    }
+    
+    .audioDuration {
+        display: inline-block;
+        height: auto;
+        margin-left: 5pt;
+        font-weight: 600;
+        font-size: 8pt;
+        top: 4pt;
+    }
+    
+    .audioQuoteBubble {
+        width: 20px;
+        height: auto;
+        display: inline-block;
+        margin-left: 5pt;
+        top: 8pt;
+        position: absolute;
+    }
+    
+    .audioPlayButton {
+        top: 4pt;
+        height: 22pt;
+        position: relative;
+        display: inline-block;
+    }
+
+    .assetType_audio {
+        background: #899CF751;
+    }
+
+    .assetType_audio .asset_image {
+        object-fit: contain;
+        margin-top: 25%;
+        height: 70%;
+    }
+
+    .mediaTypeIcon {
+        height: 14px;
+        position: absolute;
+        background: #8E8E93;
+        border-radius: 2pt;
+        bottom: 4pt;
+        left: 4pt;
+        padding: 2pt;
+    }
+
+    .mediaPlayIcon {
+        height: 22pt;
+        position: absolute;
+        top: 4pt;
+    }
+
+    .assetType_multiPinMap .gridItemOverlayFooter {
+        background:#E5E5EA; padding:4pt;
+    }
+            
+    .assetType_stateOfMind .asset_image {
+        object-fit: contain;
+        margin-top: 25%;
+        height: 50%;
+    }
+
+    .assetType_workoutIcon.multiple_workouts .asset_image {
+        object-fit: contain;
+        margin-top: 15%;
+        height: 70%;
+    }
+
+    .assetType_workoutIcon {
+        background-color: black;
+    }
+
+    .assetType_thirdPartyMedia .asset_image {
+        height: 12pt;
+        width: 12pt;
+        bottom: 4pt;
+        left: 4pt;
+        position: absolute;
+        border-radius: 2pt;
+    }
+
+    .thirdPartyAssetOverlay {
+        margin: 8pt 8px 22pt 12pt;
+        font-size: 8pt;
+        font-weight: normal;
+        color: white;
+    }
+
+    .thirdPartyAssetOverlay .mediaTitle {
+        font-weight: 600;
+    }
+
+    .thirdPartyAssetOverlay .mediaCategory {
+        margin-top: 4pt;
+        color: #FFFFFF99;
+    }
+
+
+    .assetType_motionActivity .asset_image {
+        object-fit: contain;
+        margin-top: 25%;
+        height: 50%;
+    }
+
+    .assetType_contact {
+        background-color: #E5E5EA;
+    }
+
+    .assetType_contact .asset_image {
+        object-fit: contain;
+        margin-top: 10%;
+        height: 60%;
+    }
+
+    .assetType_contact .gridItemOverlayText {
+        color:#00000099;
+        font-weight: 600;
+    }
+
+    .assetType_motionActivity .activityType {
+        color:#00000099;
+    }
+
+    .assetType_motionActivity .activityMetrics {
+        color:#00000066;
+    }
+
+    .assetType_motionActivity {
+        background-color:#FCE6E7;
+    }
+
+    audio {
+        position: absolute;
+        right: 4pt;
+        left: 4pt;
+        bottom: 4pt;
+        margin: auto;
+    }
+</style>
+</head>
+<body>
+<p class="p1"><span class="s1"><div class='pageContainer'>    <div class="pageHeader">2024年9月18日 水曜日</div>    <div class="assetGrid">    <div id="EFDC1B40-4CB0-4E2A-A8F4-6C15EBC48055" class="gridItem assetType_video " >
+        
+            <video class="asset_video" controls>
+      <source src="../Resources/EB91832C-5416-47B0-BAB3-8A8CCC836394.MOV" type="video/mp4">
+      Your browser does not support the video tag.<no loc>
+    </video>
+        <div class="durationText">0:55</div>
+        
+    </div>    <div id="E99B847B-5E8E-4C60-B8EC-B9572A3BFA56" class="gridItem assetType_multiPinMap " >
+        
+        <img src="../Resources/E99B847B-5E8E-4C60-B8EC-B9572A3BFA56.heic" class="asset_image"/>
+            <div class="gridItemOverlayFooter" style="background:#E5E5EA; padding:4pt;">Break大宮</div>
+    </div>    <div id="4E6BC95F-80F6-4BE5-80EB-2649CFFC9ED3" class="gridItem assetType_video " >
+        
+            <video class="asset_video" controls>
+      <source src="../Resources/22E7FAD1-80EE-4BE3-A979-DD1209A03DD7.MOV" type="video/mp4">
+      Your browser does not support the video tag.<no loc>
+    </video>
+        <div class="durationText">0:46</div>
+        
+    </div>    <div id="A3751642-CA12-4582-9E59-63DD4FEB7353" class="gridItem assetType_video " >
+        
+            <video class="asset_video" controls>
+      <source src="../Resources/C99B73AC-798F-4D81-9389-68F4E2CF7901.MOV" type="video/mp4">
+      Your browser does not support the video tag.<no loc>
+    </video>
+        <div class="durationText">0:58</div>
+        
+    </div>    <div id="828BEAC3-ED8E-4F2B-AC45-D4CC87351C1C" class="gridItem assetType_video " >
+        
+            <video class="asset_video" controls>
+      <source src="../Resources/534B8EDD-B105-49A7-A409-CCDB03200CF6.mov" type="video/mp4">
+      Your browser does not support the video tag.<no loc>
+    </video>
+        <div class="durationText">0:44</div>
+        
+    </div>    <div id="15A9201E-7B7C-4151-8A6C-708D5FA528C6" class="gridItem assetType_video " >
+        
+            <video class="asset_video" controls>
+      <source src="../Resources/ABAC8749-CFC4-4CEF-9631-638DB3A64F05.MOV" type="video/mp4">
+      Your browser does not support the video tag.<no loc>
+    </video>
+        <div class="durationText">0:24</div>
+        
+    </div>    <div id="EDA9966A-0C2E-4BE2-B008-03356AD0CFEB" class="gridItem assetType_video " >
+        
+            <video class="asset_video" controls>
+      <source src="../Resources/626F140D-917B-4BF8-8F84-2C6DAA99DC1C.MOV" type="video/mp4">
+      Your browser does not support the video tag.<no loc>
+    </video>
+        <div class="durationText">0:18</div>
+        
+    </div>    <div id="D166742A-68C0-4E15-A5AC-422BA42DF755" class="gridItem assetType_photo " >
+        
+        <img src="../Resources/D166742A-68C0-4E15-A5AC-422BA42DF755.heic" class="asset_image"/>
+        
+    </div>    <div id="74A7B186-2A47-410D-AD0E-4CC057306B9B" class="gridItem assetType_photo " >
+        
+        <img src="../Resources/74A7B186-2A47-410D-AD0E-4CC057306B9B.heic" class="asset_image"/>
+        
+    </div>    <div id="69162F9A-FB6F-46A1-8880-0187F429A8B5" class="gridItem assetType_photo " >
+        
+        <img src="../Resources/69162F9A-FB6F-46A1-8880-0187F429A8B5.heic" class="asset_image"/>
+        
+    </div>    <div id="86C06D9B-7722-4BC6-B1B4-C8A3CB2D13D8" class="gridItem assetType_photo " >
+        
+        <img src="../Resources/86C06D9B-7722-4BC6-B1B4-C8A3CB2D13D8.heic" class="asset_image"/>
+        
+    </div>    <div id="358F3D92-91F8-47FC-825C-9ED3D81290DC" class="gridItem assetType_photo " >
+        
+        <img src="../Resources/358F3D92-91F8-47FC-825C-9ED3D81290DC.heic" class="asset_image"/>
+        
+    </div>    <div id="CB8A8624-93F6-4B70-B9E3-7F251836AB4E" class="gridItem assetType_photo " >
+        
+        <img src="../Resources/CB8A8624-93F6-4B70-B9E3-7F251836AB4E.jpeg" class="asset_image"/>
+        
+    </div></div><div class='title'></span><span class="s2">Break大宮</span><span class="s1"></div><div class='bodyText'></span></p>
+<p class="p2"><span class="s3">せら課長の誕生日パーティーだった。</span></p>
+<p class="p2"><span class="s3">今回のために西崎さんにも協力していただいて、面白い動画を撮影していただくことができました。数ヶ月ぶりにここちゃんに会うこともできて良い1日になりました。</span></p>
+<p class="p2"><span class="s3">メガネの人にブラックサンダーの和菓子をいただきました。名前なんだったっけな？</span></p>
+<p class="p1"><span class="s1"></div></div></span></p>
+</body>
+</html>
