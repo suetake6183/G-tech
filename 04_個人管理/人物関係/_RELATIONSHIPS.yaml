@@ -1,0 +1,117 @@
+# 末武修平の人間関係定義
+# 最終更新: 2025-12-06
+# ステータス: 確認済み
+#
+# 凡例:
+#   confirmed: true  → 本人から確認済み
+
+me:
+  name: 末武修平
+
+# ============================================
+# 核家族（末武修平の家族）
+# ============================================
+family:
+  spouse:
+    name: 理沙
+    relation: 妻
+    confirmed: true
+
+  children:
+    - name: 凛
+      reading: りん
+      relation: 長女
+      confirmed: true
+    - name: 羽芽
+      reading: うめ
+      relation: 次女
+      confirmed: true
+    - name: 才
+      reading: さい
+      relation: 長男
+      confirmed: true
+
+# ============================================
+# 実家
+# ============================================
+  birth_family:
+    father:
+      name: 末武剛
+      nickname: 親父
+      relation: 父
+      occupation: 職人（建設業）
+      confirmed: true
+
+    mother:
+      name: 西野美紀
+      maiden_name: 末武
+      relation: 実母
+      note: 親父と離婚
+      confirmed: true
+
+    stepmother:
+      name: 末武香代
+      nickname: かよちゃん
+      relation: 父の再婚相手
+      note: 実母ではない
+      confirmed: true
+
+    step_siblings:
+      - name: 末武莉音
+        relation: 義理の妹
+        note: 香代の娘、來の姉
+        confirmed: true
+      - name: 末武來
+        reading: らい
+        relation: 義理の弟
+        note: 香代の息子
+        confirmed: true
+
+# ============================================
+# 親戚（父方）
+# ============================================
+  relatives:
+    grandparents:
+      - name: 末武栄子
+        relation: 祖母（父方）
+        location: 新潟県佐渡
+        note: 剛の母
+        status: 故人
+        death_year: 2025
+        confirmed: true
+
+    uncles:
+      - name: 末武洋一
+        relation: おじ（父の兄）
+        note: 工務店を継承
+        confirmed: true
+
+    cousins:  # 洋一の息子たち（いとこ）
+      - name: 一起
+        parent: 末武洋一
+        confirmed: true
+      - name: 光太
+        parent: 末武洋一
+        confirmed: true
+      - name: 佑也
+        parent: 末武洋一
+        confirmed: true
+
+# ============================================
+# 仕事関係
+# ============================================
+work:
+  employees:
+    - name: 本橋拓真
+      company: SKコーム
+      role: 従業員
+      confirmed: true
+
+# ============================================
+# 友人
+# ============================================
+friends:
+  - name: 雅さん（雅大）
+    company: DOA
+    relation: 17年来の元同僚・友人
+    confirmed: true
