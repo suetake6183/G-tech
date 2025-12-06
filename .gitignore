@@ -9,8 +9,10 @@
 # Obsidian
 .obsidian/
 
-# Claude
-.claude/
+# Claude (commands/はバージョン管理対象)
+.claude/*
+!.claude/commands/
+!.claude/CLAUDE.md
 
 # Large media files
 *.mp4
